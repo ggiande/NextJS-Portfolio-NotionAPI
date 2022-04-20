@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^12.1.5",
-    "@types/react": "^18.0.5",
+    "@types/react": "18.0.3",
     "next": "^12.1.0",
     "notion-client": "^6.11.0",
     "notion-utils": "^6.11.0",
