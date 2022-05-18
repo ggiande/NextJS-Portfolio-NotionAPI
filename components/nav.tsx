@@ -6,7 +6,11 @@ export default function nav() {
     <div>
       <header className="header_container">
       {/* <!-- Headers can come in different sizes, all the way from h1 to h6 --> */}
-      <h1>Portfolio</h1>
+      <Link href="/">
+        <a className="nav_links">
+          <h1>Portfolio</h1>
+        </a>
+      </Link>
       </header>
 
       <nav className="nav_container">
@@ -14,7 +18,7 @@ export default function nav() {
           <a className="nav_links">My Timeline</a>
         </Link>
 
-        <Link href="/" passHref>
+        <Link href="/about" passHref>
           <a className="nav_links">About</a>
         </Link>
 
