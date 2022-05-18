@@ -8,7 +8,7 @@ export default function nav() {
       {/* <!-- Headers can come in different sizes, all the way from h1 to h6 --> */}
       <Link href="/">
         <a className="nav_links">
-          <h1>Portfolio</h1>
+          <h1>Giancarlo Garcia Deleon</h1>
         </a>
       </Link>
       </header>
