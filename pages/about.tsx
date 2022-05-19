@@ -1,7 +1,7 @@
-import Link from "next/link"
-import styles from "../styles/About.module.css"
-import Image from "next/image"
-import Head from "next/head"
+import Link from "next/link";
+import styles from "../styles/About.module.css";
+import Image from "next/image";
+import Head from "next/head";
 export default function About() {
   return (
     <div>
@@ -11,36 +11,18 @@ export default function About() {
         <link rel="icon" href="/Gian.svg" />
       </Head>
 
-      <main className={styles.about}>
-        {/* <Image
-          className={styles.headshot}
-          src="/Gian.svg"   
-          alt="Gian's Headshot"
-          width={150}
-          height={150}
-        /> */}
-        <h1>About Me</h1>
+      <div className={styles.list}>
+        <p>Writer of code and workshops. CA.</p>
+        <p>Incoming Software Engineering Intern @ JPMorgan Chase & Co.</p>
         <p>
-          I am studying computer science at Stan State, and in my fourth-year.
-          Currently, I am the Vice President of the Computer Science Club with a
-          various experience and a desire to help others find their path.
+          Participated in Hackthons and sponsorer of open-source projects. Check
+          out my projects!
         </p>
         <p>
-          I am working on a number of projects and slowly converting them into
-          workshops for other students&#39; advantage. A handful of my projects
-          are publicly listed on{" "}
-          <Link href="https://github.com/ggiande">
-            <a>Github.</a>
-          </Link>
+          Formerly: IT Analyst @ Cummins Inc, Codepath.org Teacher Assistant for
+          Mobile Development
         </p>
-
-        <div className="social">
-          {/* Add LinkedIn */}
-          {/* Add Twitter */}
-          {/* Add GitHub */}
-          {/* Add DevPost */}
-          {/* Add Guides and Resources */}
-        </div>
-      </main>
-    </div>);
+      </div>
+    </div>
+  );
 }

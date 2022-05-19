@@ -84,3 +84,15 @@
 	color: green; /* Makes the > a green color */
 }
 
+.about {
+  font-family: var(--main-text);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+	max-width: 700px; /* Sets the maximum width among all elements inside of this container */
+	margin: 0 auto; /* Guarantees that the left and right margins will be set to the same size, top and bottom are set to 0 */
+}
+
+.about a {
+  color: white;
+}
