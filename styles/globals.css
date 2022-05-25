@@ -7,8 +7,9 @@
 
 * {
   box-sizing: border-box;
-  --main-text: ui-sans-serif, system-ui, apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
-
+  --main-text: ui-sans-serif, system-ui, apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif,
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
@@ -28,42 +29,45 @@ body {
 
 /* Portfolio */
 .header_container {
-	display: flex; /* Sets whether an element is treated as a block or inline element and the layout used for its children */
-	flex-direction: row; /* Specifies how items are placed in the flex container x/y-axis */
-	justify-content: center; /* Centers our element horizontally*/
-	font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
-	text-decoration: overline; /* Creates an overline above our portfolio header */
-	text-shadow: 3px 3px gray; /* Creates a translation of a gray shadow of our portfolio header  */
+  display: flex; /* Sets whether an element is treated as a block or inline element and the layout used for its children */
+  flex-direction: row; /* Specifies how items are placed in the flex container x/y-axis */
+  justify-content: center; /* Centers our element horizontally*/
+  font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
+  text-decoration: overline; /* Creates an overline above our portfolio header */
+  text-shadow: 3px 3px gray; /* Creates a translation of a gray shadow of our portfolio header  */
 }
 
 /* Our navigation links are centered and made to look pretty */
 .nav_container {
-	display: flex; /* Sets whether an element is treated as a block or inline element and the layout used for its children */
-	flex-direction: row; /* Specifies how items are placed in the flex container x/y-axis */
-	justify-content: center; /* Centers our element horizontally*/
-	padding-top: 0.5em; /* Adds space to the top of our element */
-	padding-bottom: 0.5em; /* Adds space to the bottom of our element */
+  display: flex; /* Sets whether an element is treated as a block or inline element and the layout used for its children */
+  flex-direction: row; /* Specifies how items are placed in the flex container x/y-axis */
+  justify-content: center; /* Centers our element horizontally*/
+  padding-top: 0.5em; /* Adds space to the top of our element */
+  padding-bottom: 0.5em; /* Adds space to the bottom of our element */
 }
 
 /* Our individual links */
 .nav_links {
-	text-decoration: none; /* Removes any underlines or overlines from our text */
-	margin-left: 0.5em; /* Places spacing on the outside on the left of the element */
-	margin-right: 0.5em; /* Places spacing on the outside on the right of the element */
+  text-decoration: none; /* Removes any underlines or overlines from our text */
+  margin-left: 0.5em; /* Places spacing on the outside on the left of the element */
+  margin-right: 0.5em; /* Places spacing on the outside on the right of the element */
   color: white;
-	font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
+  font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
 }
 /*  Dark Mode for all if preferences are on */
 @media (prefers-color-scheme: dark) {
   body {
     background: #2f3437;
-    color: white; 
+    color: white;
   }
 }
 
 @media (prefers-color-scheme: light) {
   body {
     background: white;
-    color: #2f3437; 
+    color: #2f3437;
+  }
+  .nav_links {
+    color: black;
   }
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 /* This is the entirety of our page, and so this styling will persist across the whole page. */
 .container {
   margin: 0 auto; /* Guarantees that the left and right margins will be set to the same size, top and bottom are set to 0 */
@@ -5,12 +6,13 @@
 }
 
 .list {
-  font-family: var(--main-text);
+  font-family: Lato;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 1em 0.5em; /* Adds space to the left and right of our element */
   max-width: 700px; /* Sets the maximum width among all elements inside of this container */
   margin: 0 auto; /* Guarantees that the left and right margins will be set to the same size, top and bottom are set to 0 */
