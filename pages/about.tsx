@@ -1,5 +1,6 @@
 import styles from "../styles/About.module.css";
 import Head from "next/head";
+
 export default function About() {
   return (
     <div className={styles.container}>

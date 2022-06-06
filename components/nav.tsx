@@ -1,16 +1,15 @@
-import React from 'react'
-import Link from "next/link"
+import React from "react";
+import Link from "next/link";
 
 export default function nav() {
   return (
     <div>
       <header className="header_container">
-      {/* <!-- Headers can come in different sizes, all the way from h1 to h6 --> */}
-      <Link href="/">
-        <a className="nav_links">
-          <h1>Giancarlo Garcia Deleon</h1>
-        </a>
-      </Link>
+        <Link href="/">
+          <a className="nav_links">
+            <h1 id="top_link">Giancarlo Garcia Deleon</h1>
+          </a>
+        </Link>
       </header>
 
       <nav className="nav_container">
@@ -31,5 +30,5 @@ export default function nav() {
         </Link>
       </nav>
     </div>
-  )
+  );
 }

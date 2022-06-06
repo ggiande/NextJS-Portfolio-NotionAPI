@@ -16,6 +16,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .breadcrumb {
   text-overflow: unset;
   overflow: hidden;
@@ -25,6 +26,22 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Portfolio */
@@ -54,6 +71,11 @@ body {
   color: white;
   font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
 }
+
+#top_link {
+  text-align: center;
+}
+
 /*  Dark Mode for all if preferences are on */
 @media (prefers-color-scheme: dark) {
   body {
