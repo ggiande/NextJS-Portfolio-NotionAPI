@@ -17,13 +17,13 @@ export default function nav() {
           <a className="nav_links">My Timeline</a>
         </Link>
 
-        <Link href="/about" passHref>
+        {/* <Link href="/about" passHref>
           <a className="nav_links">About</a>
-        </Link>
+        </Link> */}
 
-        <Link href="/projects" passHref>
+        {/* <Link href="/projects" passHref>
           <a className="nav_links">Projects</a>
-        </Link>
+        </Link> */}
 
         <Link href="https://github.com/ggiande" passHref>
           <a className="nav_links">Github</a>

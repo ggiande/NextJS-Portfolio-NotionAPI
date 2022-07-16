@@ -28,22 +28,6 @@ body {
   text-overflow: ellipsis;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-}
-
 /* Portfolio */
 .header_container {
   display: flex; /* Sets whether an element is treated as a block or inline element and the layout used for its children */
