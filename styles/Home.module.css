@@ -77,6 +77,11 @@
   font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
 }
 
+.nav_links:hover {
+  text-shadow: #cccdce;
+  color: aqua;
+}
+
 /* A small division used to make the green line at the bottom of our pre container */
 .terminal {
   padding-bottom: 0.3rem; /* Adds space to the bottom of our element */

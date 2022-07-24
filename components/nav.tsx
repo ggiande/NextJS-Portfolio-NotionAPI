@@ -6,8 +6,8 @@ export default function nav() {
     <div>
       <header className="header_container">
         <Link href="/">
-          <a className="nav_links">
-            <h1 id="top_link">Giancarlo Garcia Deleon</h1>
+          <a className="top_link">
+            <h1>Giancarlo Garcia Deleon</h1>
           </a>
         </Link>
       </header>

@@ -56,7 +56,16 @@ body {
   font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
 }
 
-#top_link {
+.nav_links:hover {
+  color: aqua;
+}
+
+.top_link {
+  text-decoration: none; /* Removes any underlines or overlines from our text */
+  margin-left: 0.5em; /* Places spacing on the outside on the left of the element */
+  margin-right: 0.5em; /* Places spacing on the outside on the right of the element */
+  color: white;
+  font-family: "Comfortaa"; /* Makes our current font name change to Comfortaa */
   text-align: center;
 }
 
